@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francesca's Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 style = "color:deeppink; font-size: 24px;">Welcome to my Website!</h1>
+    <h3> Introduction</h3>
+    <p></p> Hello! My name is Francesca. I am a student at Northeastern University studying Behavioral Neuroscience and minoring in Data Science. I am from Staten Island, NY. I am graduating from NEU in April, and look forward to moving back to NYC while I prepare my medical school application. In my free time, I like to spend time with my pets, bake, spend time with friends and family, explore new places and listen to music.
+    <p></p> Behavioral Neuroscience has been a great fit for me because it lies right at the intersection of biology and behavior. This unique combination allows me to study how the brain shapes who we are, and how we experience the world. Pairing that with a Data Science minor has given me practical skills in analyzing complex data, which is valuable in both clinical and research settings.
+    <p></p> Outside of the classroom, one of my biggest passions is animal welfare. I spend my free time volunteering at the MSPCA, where my role is to match cats into homes where they will thrive. Back home, I have 2 dogs and 1 cat: Junior, 16; Daisy, 12; and Dak, 7. In my free time I also love to try new recipes. Currently, my favorite thing to bake is chocolate chip cookies! 
+    <p></p>
+
+    <img src = "IMG_5588.jpg", width="265">
+    <img src = "IMG_5589.jpg", width="315">
+
+    <button id="btn1">Page 1</button>
+    <button id="btn2">Page 2</button>
+    <script>
+      document.getElementById('btn1').addEventListener('click', function() {
+        window.location.href = 'index.html';
+      });
+      document.getElementById('btn2').addEventListener('click', function() {
+        window.location.href = 'page2.html';
+      });
+    </script>
+    

@@ -1,0 +1,21 @@
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fce4ec;
+  color: #623e55;
+  margin: 40px;
+}
+
+h1 {text-align: center}
+
+h1, h2, h3 {
+  color: #b01369;
+  padding: 10px
+}
+a {color: #b01369
+}
+
+img {
+  border-radius: 24px;
+  border: 4px double deeppink
+}
